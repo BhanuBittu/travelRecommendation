@@ -1,0 +1,17 @@
+body{
+    background-image: url('https://img.freepik.com/premium-photo/flat-illustration-world-tourism-day-celebration_208978-9415.jpg?w=996');
+}
+nav{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 60px;
+}
+.nav-bar{
+    display: flex;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
