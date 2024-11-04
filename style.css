@@ -1,17 +1,105 @@
 body{
-    background-image: url('https://img.freepik.com/premium-photo/flat-illustration-world-tourism-day-celebration_208978-9415.jpg?w=996');
+    background-image: url('https://www.jagvimal.com/story/wp-content/uploads/2022/12/travel-background-with-toy-plane-map-scaled.jpg');
+    background-size: cover;
+  background-repeat: no-repeat;
+      height: 100vh;
+}
+.nav a i{
+    color: #fffcfce1;
+    padding: 5px;
 }
 nav{
     display: flex;
     text-align: right;
     align-items: center;
-    height: 60px;
+    background-color: rgb(132, 132, 132, 0.5);
+    gap: 10px;
+    height: 50px;
+    padding: 0%;
+    position: relative;
+    text-decoration: none;
 }
 .nav-bar{
     display: flex;
+    flex: 1;
+    padding: 0 0 0 100px;
+    margin-left: 300px;
+    gap: 30px;
+    align-items: center;
 }
-.logo{
-    width: 100px;
-    height: 50px;
-    cursor: pointer;
+nav .nav-search{
+    display: flex;
+    height: 40px;
+    padding: 4px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border: 1px solid rgba(155,155,155,0.2);
 }
+.main{
+    padding: 0 0 0 30px;
+    margin: 110px;
+}
+.main p{
+    width: 600px;
+    background-color: rgba(107, 106, 106, 0.5);
+    color: rgb(7, 7, 7);
+    border-radius: 5px;
+}
+.sidebar {
+    width: 25px;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: auto;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+fieldset{
+    padding: 10px;
+    margin: 10px 0;
+    width: 70%;
+    max-width: 300px;
+    border: 1px solid black;
+    background-color: rgb(128, 128, 128, 0.5);
+}
+.contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  .container{
+    display: flex;
+    margin: 100px;
+    gap: 350px;
+  }
+  .right{
+    padding: 0 0 10px;
+    margin: 1px;
+  }
+  .team{
+    display: flex;
+    padding: 20px;
+    margin: 110px;
+    gap: 20px;
+  }
+  .ceo,.founder,.tl{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0, 0.2);
+  }
+  .team label{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-width: 10px;
+  }
