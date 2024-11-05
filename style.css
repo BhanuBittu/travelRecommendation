@@ -1,7 +1,8 @@
 body{
-    background-image: url('https://www.jagvimal.com/story/wp-content/uploads/2022/12/travel-background-with-toy-plane-map-scaled.jpg');
-    background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url('https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: 100%;
+    background-position: 0%;
+  background-attachment: fixed;
       height: 100vh;
 }
 .nav a i{
@@ -30,21 +31,27 @@ nav{
 nav .nav-search{
     display: flex;
     height: 40px;
+    width: 40px;
     padding: 4px;
     background: #1e232b;
-    min-width: 18% !important;
     border-radius: 30px;
     border: 1px solid rgba(155,155,155,0.2);
+}
+nav .nav-search input{
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
 }
 .main{
     padding: 0 0 0 30px;
     margin: 110px;
+    display: flex;
 }
 .main p{
     width: 600px;
     background-color: rgba(107, 106, 106, 0.5);
-    color: rgb(7, 7, 7);
-    border-radius: 5px;
+    color: rgb(255,255,255);
+    padding: 5px;
 }
 .sidebar {
     width: 25px;
@@ -76,7 +83,7 @@ fieldset{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
   }
-  .container{
+  .containerss{
     display: flex;
     margin: 100px;
     gap: 350px;
@@ -102,4 +109,35 @@ fieldset{
     border: 1px solid black;
     border-radius: 5px;
     border-width: 10px;
+  }
+  button{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .section {
+    padding: 5px;
+  
+  }
+  .item {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 3px;
+
+    
+  }
+  .item img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+  }
+  .section fieldset{
+    background-color: rgb(255, 255, 255,0.8);
+  }
+  .section p {
+    width: 350px;
+  }
+  .team{
+    color: white;
   }

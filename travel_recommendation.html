@@ -15,27 +15,30 @@
         </div>
         <div class="nav-bar">    
             <b><a href="travel_recommendation.html"><i class="fa-solid fa-house"></i>Home</a></b>
-            <b><a href="about.html"><i class="fa-solid fa-bars-staggered"></i></i>About Us</a></b>
+            <b><a href="about.html"><i class="fa-solid fa-bars-staggered"></i>About Us</a></b>
             <b><a href="contact.html"><i class="fa-solid fa-phone"></i>Contact Us</a></b>
         </div>
         <div calss="nav-search">
-            <input type="text" id="search">
-            <button id="search">Search</button>
-            <button id="clear">Clear</button>
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+            <button onclick="search()">Search</button>
+            <button onclick="clear()">Clear</button>
         </div>
     </nav>
-    <div class="sidebar">
-        <i class="fa-solid fa-house"></i>
-        <i class="fa-solid fa-info"></i>
-        <i class="fa-solid fa-about"></i>
-    </div>
     <div class="main">
-        <h1>Explore</h1>
-        <h1>Adventure</h1></br>
+        <div class="left">
+        <h1>EXPLORE</h1>
+        <h1>DREAM</h1>
+        <h1>DESTINATION</h1></br>
         <p>A travel adventure is all about stepping out of your comfort zone to explore new horizons, from rugged mountain trails to vibrant city streets and untouched natural wonders.
         Its a chance to connect with diverse cultures, experience heart-racing activities, and create unforgettable memories. 
         Each adventure brings a blend of excitement, challenge, and discovery, opening your eyes to the beauty and diversity our world has to offer.
         </p>
     </div>
+    <div id="countriesContainer" class="section"></div>
+    <div id="templesContainer" class="section"></div>
+    <div id="beachesContainer" class="section"></div>
+    </div>
+    <script src="travel_recommendation.js"></script> 
+
 </body>
 </html>
